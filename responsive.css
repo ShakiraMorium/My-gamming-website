@@ -27,6 +27,9 @@
         height: auto;
         
     }
+    .main-section{
+        flex-direction: column;
+    }
 }
 /*  For medium device */
 @media screen and(min-width:560px),(max-width:960px){
@@ -46,5 +49,8 @@
     }
     .banner-img{
        margin-right:230px;
+    }
+    .main-section{
+        flex-direction: column;
     }
 }
