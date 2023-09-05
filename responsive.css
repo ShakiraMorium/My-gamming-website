@@ -4,7 +4,7 @@
         flex-direction: column;
         padding-top: 10px;
     }
-    .nav-logo{
+    .nav-logo, .play-section, .game-container, .img-div-1, .img-div-2, .footer{
         flex-direction: column;
         align-items: center;
         margin-right: 170px;
@@ -33,6 +33,9 @@
     .grid-container{
         grid-template-columns: repeat(1,1fr);
     }
+    .play-section{
+        margin-right: 150px;
+    }
 }
 /*  For medium device */
 @media screen and(min-width:560px),(max-width:960px){
@@ -53,10 +56,12 @@
     .banner-img{
        margin-right:230px;
     }
-    .main-section{
+    .main-section, .play-section, .game-container, .img-div-1, .img-div-2, .footer{
         flex-direction: column;
+       
     }
     .grid-container{
-        grid-template-rows: repeat(1, 2fr);
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
     }
 }
