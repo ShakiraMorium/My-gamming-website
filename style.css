@@ -15,14 +15,16 @@
 }
 .header-section{
     width: 100%;
-    margin-left: 75px;
     padding-top: 15px;
+    
 }
 
 .nav-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 175px;
+    
     
     
 }
@@ -41,6 +43,7 @@
     align-items: center;
     list-style: none;
     margin-right: 250px;
+    padding:10px ;
     gap: 50px;
     
 }
@@ -56,6 +59,50 @@
     border-radius: 6px;
     padding: 10px;
     background-image: url(images/icon1.png);
+}
+/* style banner section */
+.banner-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    width: 100%;
+}
+.banner-title{
+    width: 50%;
+    padding-left:175px;
+    
+}
+.btn-1{
+    background-color: rgb(241, 119, 184);
+    padding: 15px;
+    border-radius: 25px;
+    border: 0;
+}
+.h3-text{
+    font-size: 30px;
+    font-weight: 700;
+}
+.h1-text{
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+.span{
+    background-image: linear-gradient(to bottom,rgb(241, 119, 184) ,rgb(119, 213, 241));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.btn-2{
+    background-color: rgb(119, 213, 241);
+    padding: 15px;
+    border-radius: 25px;
+    border: 0;
+}
+.banner-img{
+    width: 50%;
+    padding-right: 50px;
 }
     
    

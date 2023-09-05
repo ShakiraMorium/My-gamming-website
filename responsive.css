@@ -6,12 +6,45 @@
     }
     .nav-logo{
         flex-direction: column;
-       align-items: center;
+        align-items: center;
         margin-right: 170px;
         
     }
     .nav-items ul{
         flex-direction: column;
         margin-left: 56px;
+    }
+    .banner-section{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .banner-title{
+        margin-right:75px;
+    }
+    .banner-img{
+        width: auto;
+        height: auto;
+        
+    }
+}
+/*  For medium device */
+@media screen and(min-width:560px),(max-width:960px){
+    .nav-container{
+            flex-direction: column;
+    }
+    .nav-logo{
+       margin-right: 75px;
+    }
+    .nav-items ul{
+        text-align: center;
+        margin-left: 170px;
+    }
+    .banner-section{
+        flex-direction: column;
+        width: 130%;
+    }
+    .banner-img{
+       margin-right:230px;
     }
 }
