@@ -30,6 +30,9 @@
     .main-section{
         flex-direction: column;
     }
+    .grid-container{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 /*  For medium device */
 @media screen and(min-width:560px),(max-width:960px){
@@ -52,5 +55,8 @@
     }
     .main-section{
         flex-direction: column;
+    }
+    .grid-container{
+        grid-template-rows: repeat(1, 2fr);
     }
 }
